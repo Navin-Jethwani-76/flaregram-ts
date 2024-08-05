@@ -1,0 +1,20 @@
+{
+	"name": "flaregram-ts",
+	"version": "1.0.1",
+	"private": true,
+	"scripts": {
+		"login": "wrangler login",
+		"deploy": "wrangler deploy",
+		"start": "wrangler dev",
+		"dev": "wrangler dev",
+		"cf-typegen": "wrangler types"
+	},
+	"dependencies": {
+		"itty-router": "^5.0.17"
+	},
+	"devDependencies": {
+		"@cloudflare/workers-types": "^4.20240729.0",
+		"typescript": "^5.5.4",
+		"wrangler": "^3.68.0"
+	}
+}
